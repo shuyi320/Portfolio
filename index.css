@@ -1,0 +1,132 @@
+body {
+  background-color: #181c1f;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  font-family: monospace;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  top: 1%;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-left: 35px;
+  color: white;
+  font-size: 20px;
+  transition: .5s;
+}
+
+.navbar a:hover {
+  transform: scale(1.5);
+}
+
+.home {
+  font-size: 20px;
+  position: relative;
+  justify-content: space-around;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+  font-size: 2.5rem;
+}
+
+.home-content {
+  text-align: center;
+  position: relative;
+}
+
+.contact {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+  display: grid;
+}
+
+.contact a {
+  margin: 0 25px;
+  border-radius: 50%;
+  border: 2px solid, #0ef;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #0ef;
+  display: inline-flex;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.contact a:hover {
+  transform: scale(1.5);
+  color: #0ef;
+  box-shadow: 0 0 5px #0ef;
+  text-shadow: 0 0 5px #0ef;
+}
+
+.skill {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.skill-logo h1 {
+  align-items: center;
+  justify-content: space-around;
+  font-size: 8ch;
+  display: inline-block;
+  margin: 35px;
+  left: 50%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.about-img img {
+  border-radius: 50%;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.about button {
+  padding: 13px, 30px;
+  color: rgb(51, 75, 141);
+  height: 10%;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 12px;
+  text-align: center;
+  width: 130px;
+  height: 50px;
+}
+
+.title {
+  font-size: 2rem;
+}
